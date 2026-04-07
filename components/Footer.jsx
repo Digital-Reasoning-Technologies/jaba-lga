@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, Linkedin, Youtube, Clock } from "lucide-react";
 import { useSiteConfig } from "@/contexts/site-config";
 
 const iconMap = { facebook: Facebook, twitter: Twitter, instagram: Instagram, linkedin: Linkedin, youtube: Youtube };
-const contactIconMap = { phone: Phone, mail: Mail, mapPin: MapPin };
+const contactIconMap = { phone: Phone, mail: Mail, mapPin: MapPin, clock: Clock };
 
 const SectionHeader = ({ title }) => (
   <h3 className="text-xl font-bold mb-4">{title}</h3>
